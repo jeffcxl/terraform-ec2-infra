@@ -19,7 +19,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.NOTSECRET }}
-        aws-secret-access-key: ${{ secrets.CANNOTTELLYOUY }}
+        aws-secret-access-key: ${{ secrets.CANNOTTELLYOU }}
         aws-region: ${{ env.AWS_REGION }}
 
     - name: Setup Terraform
